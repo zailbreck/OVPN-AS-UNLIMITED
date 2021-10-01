@@ -16,7 +16,7 @@ echo "Setup..."
 mkdir ~/easy-rsa
 ln -s /usr/share/easy-rsa/* ~/easy-rsa
 sudo chown $user ~/easy-rsa
-chmod 700 ~/easy-rsa
+sudo chmod 700 ~/easy-rsa
 
 echo "Setup Complete..."
 
